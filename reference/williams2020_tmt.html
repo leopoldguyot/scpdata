@@ -77,7 +77,7 @@ article. The samples contain either carrier (10 ng), reference
 
     <div id="format">
     <h2>Format</h2>
-    <p>A <a href="https://rdrr.io/pkg/QFeatures/man/QFeatures-class.html" class="external-link">QFeatures</a> object with 4 assays, each assay being a
+    <p>A <a href="https://rformassspectrometry.github.io/QFeatures/reference/QFeatures-class.html" class="external-link">QFeatures</a> object with 4 assays, each assay being a
 SingleCellExperiment object:</p><ul><li><p><code>peptides_[intensity or corrected]</code>: 2 assays containing peptide
 reporter ion intensities or corrected reporter ion intensities
 as computed by MaxQuant.</p></li>
@@ -136,7 +136,7 @@ intensities are contained in separate tables. Tables are then
 converted to SingleCellExperiment objects. Sample annotations
 were inferred from the sample names, from table S2 and from the
 Experimental Section of the paper. All data is combined in
-a <a href="https://rdrr.io/pkg/QFeatures/man/QFeatures-class.html" class="external-link">QFeatures</a> object. <a href="https://rdrr.io/pkg/QFeatures/man/AssayLinks.html" class="external-link">AssayLinks</a> were stored between peptide
+a <a href="https://rformassspectrometry.github.io/QFeatures/reference/QFeatures-class.html" class="external-link">QFeatures</a> object. <a href="https://rformassspectrometry.github.io/QFeatures/reference/AssayLinks.html" class="external-link">AssayLinks</a> were stored between peptide
 assays and their corresponding proteins assays based on the
 leading razor protein (hence only unique peptides are linked to
 proteins).</p>
@@ -160,7 +160,8 @@ Analytical Chemistry 92 (15): 10588–96.
 <span class="r-in"><span><span class="fu">williams2020_tmt</span><span class="op">(</span><span class="op">)</span></span></span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> see ?scpdata and browseVignettes('scpdata') for documentation</span>
 <span class="r-msg co"><span class="r-pr">#&gt;</span> loading from cache</span>
-<span class="r-out co"><span class="r-pr">#&gt;</span> An instance of class QFeatures containing 4 set(s):</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> An instance of class QFeatures (type: scp) with 4 sets:</span>
+<span class="r-out co"><span class="r-pr">#&gt;</span> </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [1] peptides_intensity: SingleCellExperiment with 17966 rows and 209 columns </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [2] peptides_corrected: SingleCellExperiment with 17966 rows and 209 columns </span>
 <span class="r-out co"><span class="r-pr">#&gt;</span>  [3] proteins_intensity: SingleCellExperiment with 2646 rows and 209 columns </span>
@@ -181,7 +182,7 @@ Analytical Chemistry 92 (15): 10588–96.
 </div>
 
 <div class="pkgdown">
-  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.1.2.9000.</p>
+  <p></p><p>Site built with <a href="https://pkgdown.r-lib.org/" class="external-link">pkgdown</a> 2.2.0.9000.</p>
 </div>
 
       </footer></div>
